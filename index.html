@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>myportfolio</title>
+    <style type="text/css">
+	div#about
+{
+  padding-top:60px;
+}
+div#skills
+{
+  padding-top:60px;
+}
+div#education
+{
+  padding-top:60px;
+}
+div#works
+{
+  padding-top:60px;
+}
+div#gallery
+{
+  padding-top:60px;
+}
+div#contact
+{
+  padding-top:60px;
+}
+.affix
+{
+      top:0;
+      width: 100%;
+      z-index: 1;
+  }
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 1px;
+  }
+body 
+  {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+    position:relative;
+  }
+  h2 
+  {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 
+  {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron 
+  {
+	  background:url('http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/codepenboopalanimage_aybp0s.jpg');
+    
+      background-repeat:no-repeat;
+      background-size:100% 110%;
+	  color: #2F4F4F;
+      padding-top:50px;
+      font-family: Gill Sans MT, sans-serif;
+	  
+  }
+  .container-fluid 
+  {
+      padding: 2px 15px;
+  }
+  
+  .logo-small 
+  {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo 
+  {
+      color: #f4511e;
+      font-size: 150px;
+  }
+  .navbar 
+  {
+      margin-bottom: 0px;
+      background-color: #A9A9A9;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+    font-weight:bold;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-family: Gill Sans MT, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand 
+  {
+      color: #000080 !important;
+	  font-weight:bold;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a 
+  {
+      color: white !important;
+	  font-weight:bold;
+      background-color:	#ab9 !important;
+  }
+  .navbar-default .navbar-toggle 
+  {
+      border-color: transparent;
+      color: red !important;
+  }
+  
+  @media screen and (max-width: 768px) 
+  {
+    .col-sm-4 
+	{
+	  text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg 
+	{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+     div.jumbotron
+  {
+    max-height:400px;
+  }
+    div.jumbotron h2
+    {
+      font-size:30px;
+    }
+  
+  }
+  @media only screen and (max-width: 480px) 
+  {
+    .logo 
+	{
+        font-size: 100px;
+    }
+   
+    div.jumbotron h2 
+	{
+        font-size: 20px;
+    }
+    div.jumbotron h2 span
+    {
+      display:block;
+      font-size:20px;
+    }
+    div.jumbotron p
+    {
+      font-size:15px;
+    }
+    div.jumbotron
+  {
+    max-height:300px;
+  }
+  }
+@media only screen and (max-width: 380px) 
+{
+  div.jumbotron h2 
+	{
+        font-size: 20px;
+    }
+  div.jumbotron
+  {
+    max-height:350px;
+  }
+}
+
+@media only screen and (max-width: 375px)
+{
+  div.jumbotron h2 span
+	{
+        display:block;
+        font-size: 18px;
+       
+    }
+  div.jumbotron p
+	{
+        font-size: 13px;
+        font-weight:bold;
+    } 
+  div.jumbotron
+  {
+    max-height:280px;
+  }
+} 
+	</style>
+</head>
+
+<body>
+  
+
+<!--Main Code-->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<div class="jumbotron text-left" style="height:570px;">
+    <div class="container-fluid">
+  <h1 style="font-family:Dotum, sans-serif;">Hello I'm</h1>
+  <h2>Boopalan <span>Sundaramoorthy</span></h2>
+  <p>Web Designer & Developer</p> 
+      </div>
+</div>
+  
+ <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="600" style="background-color:#ADD8E6;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>               
+      </button>
+      <a class="navbar-brand" href="#myPage" style="font-size:30px;"><span style="color:#800080;">S</span><span style="color:#000080;">B</span></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="list1" class="nav navbar-nav navbar-right" data-toggle="collapse" data-target=".in">
+        <li class="active"><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+		<li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid" style="background-color:#e6ffe6;">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2 style="color:#001f4d;">ABOUT ME</h2><br>
+      <h3 style="text-align:justify;line-height:35px;">Hello! My name is Boopalan Sundaramoorthy, and many of the lovely people know me as SB. I am currently living in Coimbatore, Tamilnadu, India. I'm very self-motivated, creative thinker and enjoy working in a team or alone.</h3><br>
+	  <table class="table">
+	  <tr>
+	  <th>Email</th>
+	  <td>boopal143@gmail.com</td>
+	  </tr>
+	  <tr>
+	  <th>Mobile</th>
+	  <td>+91 99526 84608</td>
+	  </tr>
+	  <tr>
+	  <th>Date of birth</th>
+	  <td>13 April 1987</td>
+	  </tr>
+	  <tr>
+	  <th>Nationality</th>
+	  <td>Indian</td>
+	  </tr>
+	  </table>
+    </div>
+    <div class="col-sm-4">
+      <!--<span class="glyphicon glyphicon-signal logo"></span>-->
+	  <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566944/Boopalan1_ccsadm.jpg"
+	  height="300" width="300" style="box-shadow: 10px 10px 5px #888888;">
+    </div>
+  </div>
+</div>
+
+<!-- Container (Skills Section) -->
+
+<div class="container-fluid bg-grey" id="skills" style="background-color:#f0e6ff;">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2 style="color:#001f4d;">MY SKILLS</h2><br>
+      <h2 style="font-size:25px;font-family:Arial;margin-left:50px;color:green;font-weight:bold;">HTML & CSS</h2>
+  <div class="progress" style="margin-left:50px;margin-right:45px;">
+    <div class="progress-bar progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+      90%
+    </div>
+  </div>
+  <!--Javascript & jQuery-->
+  <h2 style="font-size:25px;font-family:Arial;margin-left:50px;color:#00BFFF;font-weight:bold;">Javascript & jQuery</h2>
+  <div class="progress" style="margin-left:50px;margin-right:45px;">
+    <div class="progress-bar progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70%
+    </div>
+  </div>
+ <!--PHP & MySQL-->
+  <h2 style="font-size:25px;font-family:Arial;margin-left:50px;color:#FFA500;font-weight:bold;">PHP & MySQL</h2>
+  <div class="progress" style="margin-left:50px;margin-right:45px;">
+    <div class="progress-bar progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+      75%
+    </div>
+  </div>
+     <!--Photoshop-->
+  <h2 style="font-size:25px;font-family:Arial;margin-left:50px;color:#00BFFF;font-weight:bold;">Photoshop</h2>
+  <div class="progress" style="margin-left:50px;margin-right:45px;">
+    <div class="progress-bar progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+      70%
+    </div>
+  </div>
+  </div>
+  
+  <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+	  <h3 style="text-align:justify;line-height:35px;">I have over 4 years of experience in Web Design and Development, in addition to a lifetime's amount of serious study about these subjects in my off time.
+	  I work in a range of creative areas including web design & development, photoshop & logos, animation & photography</h3>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Education Section) -->
+
+<div class="container-fluid text-left" id="education" style="background-color:#FFFFF0;">
+<h2 style="color:#001f4d;">EDUCATION</h2>
+<div class="panel-group" id="accordion" style="width:100%;">
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color:#B0E0E6;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="font-size:25px;">+ Ph.D Computer Science</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body"><h3>Currently pursuing Doctrate of Philosophy in Computer Science from Bharathiar University as a part time.</h3></div>
+		<div class="table-responsive">
+		<table class="table">
+		<tr><th style="font-size:25px;color:#3ac4ff;">Area of specialization</th><td style="font-size:25px;">Advanced Networking</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Domain</th><td style="font-size:25px;">Wireless/Sensor Networks</td></tr>
+		</table>
+		</div>
+	  </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color:#FFE4E1;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="font-size:25px;">+ M.Phil Computer Science</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body"><h3>Completed Master of Philosophy in Computer Science from SNMV College of Arts and Science.</h3></div>
+		<div class="table-responsive">
+		<table class="table">
+		<tr><th style="font-size:25px;color:#3ac4ff;">Year</th><td style="font-size:25px;">2014</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Area of specialization</th><td style="font-size:25px;">Advanced Networking</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Domain</th><td style="font-size:25px;">Traffic Engineering & Optimization  Networks</td></tr>
+		</table>
+      </div>
+    </div>
+	</div>
+    <div class="panel panel-default">
+      <div class="panel-heading" style="background-color:#B0E0E6;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="font-size:25px;">+ Post Graduate</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body"><h3>Completed Master of Science in Information Technology from Bharathiar University.</h3></div>
+		<div class="table-responsive">
+		<table class="table">
+		<tr><th style="font-size:25px;color:#3ac4ff;">Year</th><td style="font-size:25px;">2010</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Area of interest</th><td style="font-size:25px;">Web Design & Development</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Project Topic</th><td style="font-size:25px;">Online Bidding System</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">FrontEnd & BackEnd</th><td style="font-size:25px;">PHP & MySQL</td></tr>
+		</table>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+      <div class="panel-heading" style="background-color:#FFE4E1;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="font-size:25px;">+ Under Graduate</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body"><h3>Completed Bachelor of Science in Computer Science from SNMV College of Arts and Science.</h3></div>
+		<div class="table-responsive">
+		<table class="table">
+		<tr><th style="font-size:25px;color:#3ac4ff;">Year</th><td style="font-size:25px;">2007</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Area of interest</th><td style="font-size:25px;">Network Security & Cryptography</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">Project Topic</th><td style="font-size:25px;">Chat System with Cryptography</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">FrontEnd & BackEnd</th><td style="font-size:25px;">ASP.NET & SQL</td></tr>
+		</table>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+      <div class="panel-heading" style="background-color:#B0E0E6;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="font-size:25px;">+ High Schools</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body"><h3>Completed SSLC & HSC from Sri Gopal Naidu School & PSG Sarva Jana School</h3></div>
+		<div class="table-responsive">
+		<table class="table">
+		<tr><th style="font-size:25px;color:#3ac4ff;">SSLC - Year</th><td style="font-size:25px;">2002</td></tr>
+		<tr><th style="font-size:25px;color:#3ac4ff;">HSC - Year</th><td style="font-size:25px;">2004</td></tr>
+		</table>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+<!-- Container (Works Section) -->
+<div class="container-fluid text-left" id="works" style="background-color:#efeff5;">
+<h2 style="color:#001f4d;">WORKS</h2>
+<div class="row">
+    <div class="col-sm-6" style="background-color:#DCDCDC;">
+	<div>
+	<h3>Responsive - Tribute Page</h3>
+	<img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566675/tributepage_omxbib.jpg" height="500" width="600"/><br>
+	<h3> Click the link to view: <a href="https://codepen.io/boopalan002/pen/jaVmPX" target="_blank">CodePen/Boopalan/TributePage</a></h3>
+	</div>
+	</div>
+    <div class="col-sm-6" style="background-color:#DCDCDC;;">
+	<div>
+	<h3>Responsive - Registration Page</h3>
+	<img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/regform_kzbcop.jpg" height="500" width="600"/><br>
+	<h3> Click the link to view: <a href="https://codepen.io/boopalan002/pen/aVmjNY" target="_blank">CodePen/Boopalan/RegForm</a></h3>
+	</div>
+	</div>
+  </div>
+</div>
+
+
+<!-- Container (Gallery Section) -->
+<div class="container-fluid text-left" id="gallery" style="background-color:#f1daf1;">
+<h2 style="color:#001f4d;">GALLERY</h2>
+<h3 style="color:black;">Do/Did You Know</h3>
+<div class="row">
+     <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566676/Warren_y0jlkt.jpg" target="_blank">
+          <img src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566676/Warren_y0jlkt.jpg" style="width:100%;">
+        </a>
+      </div>
+	  </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566676/Stevemark_ifloqr.jpg" target="_blank">
+          <img  src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566676/Stevemark_ifloqr.jpg" style="width:100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/Jordan_qrdyvo.jpg" target="_blank">
+          <img  src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/Jordan_qrdyvo.jpg" style="width:100%;">
+        </a>
+      </div>
+    </div>
+</div>
+<div class="row">
+	<div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/Musk_a2kujj.jpg" target="_blank">
+          <img  src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/Musk_a2kujj.jpg" style="width:100%;">
+        </a>
+      </div>
+    </div>
+	<div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Stephen_hc2iue.jpg" target="_blank">
+          <img  src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Stephen_hc2iue.jpg" style="width:100%;">
+        </a>
+      </div>
+    </div>
+	<div class="col-md-4">
+      <div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/DyslexiaPersons_oaqvhx.jpg" target="_blank">
+          <img src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566673/DyslexiaPersons_oaqvhx.jpg" style="width:100%;">
+        </a>
+      </div>
+    </div>
+</div>
+<h3 style="color:black;">Inspiring Person - Quotes</h3>
+<div class="row">
+	<div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510568340/thala_ij5gni.jpg" target="_blank">
+          <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510568340/thala_ij5gni.jpg" style="width:100%;">
+        </a>
+		</div>
+	</div>
+    <div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566675/Timcook_erbwne.jpg" target="_blank">
+			<img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566675/Timcook_erbwne.jpg" style="width:100%;">
+        </a>
+		</div>
+    </div>
+    <div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566672/Dr.APJ_gganub.jpg" target="_blank">
+          <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566672/Dr.APJ_gganub.jpg" style="width:100%;">
+        </a>
+		</div>
+    </div>
+</div>
+<div class="row">
+	<div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510568486/Joker_k7rkeu.jpg" target="_blank">
+          <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510568486/Joker_k7rkeu.jpg" style="width:100%;">
+        </a>
+		</div>
+    </div>
+	<div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Jackie_snhxve.jpg" target="_blank">
+          <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Jackie_snhxve.jpg" style="width:100%;">
+        </a>
+		</div>
+    </div>
+	<div class="col-md-4">
+		<div class="thumbnail">
+        <a href="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Rowling_wwom2f.jpg" target="_blank">
+          <img class="img-responsive" src="http://res.cloudinary.com/dwjej2tbp/image/upload/v1510566674/Rowling_wwom2f.jpg" style="width:100%;">
+        </a>
+		</div>
+    </div>
+</div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid text-left" style="background-color:#e6f7ff;">
+  <h2 style="color:#001f4d;">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-12" style="color:black;">
+      <p><span class="glyphicon glyphicon-map-marker"></span> Coimbatore, Tamilnadu</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +91 99526 84608</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> boopal143@gmail.com</p>
+	  <p><span class="fa fa-facebook-official"></span> <a href="https://www.facebook.com/boopalan.sundaramoorthy" target="_blank">https://www.facebook.com/boopalan.sundaramoorthy</a></p>
+	  <p><span class="glyphicon glyphicon-bold"></span><a href="https://medium.com/@boopal143" target="_blank">https://medium.com/@boopal143</a></p>
+    </div>
+   </div>
+   
+</div><br>
+  
+  <p style="text-align:center;font-weight:bold;color:black;">BoopalanSundaramoorthy. Copyright @ SB 2017.
+    </p>
+</body>
+  
+  
+</body>
+</html>
