@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "/"
 title = "Boopalan S | MySmartPortfolio"
 theme = "somrat"
 # post pagination
