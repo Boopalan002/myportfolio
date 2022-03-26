@@ -67,7 +67,7 @@ logo_light = "images/mylogo.png"
 logo_dark = "images/mylogo-dark.png"
 logo_width = "100px"
 # Meta data
-description = "This is meta description"
+description = "My Website"
 author = "Boopalan Sundaramoorthy"
 
 # Preloader
@@ -124,14 +124,20 @@ url = "portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
+name = "Certifications"
+pre = "#"
+url = "service"
+weight = 4
+
+[[Languages.en.menu.main]]
 name = "Blog"
 url = "blog"
-weight = 4
+weight = 5
 
 [[Languages.en.menu.main]]
 name = "Contact"
 pre = "#"
 url = "contact"
-weight = 5
+weight = 6
 
 ################# english navigation ##################

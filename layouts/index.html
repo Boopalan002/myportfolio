@@ -266,6 +266,36 @@
 {{ end }}
 <!-- End About Me -->
 
+<!-- Start Services -->
+{{ with .GetPage "service" }}
+<style>{{.Params.custom_css | safeCSS}}</style>
+<section class="services {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto col-sm-10">
+        <div class="wow fadeInUp" data-wow-duration="1.5s">
+          <div class="services-heading">
+            <div class="bar"></div>
+            <h1>{{ .Title | markdownify }}</h1>
+          </div>
+          <div class="row">
+            {{ range .Params.service_list }}
+            <div class="col-lg-6 col-sm-6 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
+              </div>
+              <div class="service-label">{{ .name | markdownify }}</div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- End Services -->
+
 <!-- call to action -->
 {{ with .GetPage "call-to-action" }}
 <style>{{.Params.custom_css | safeCSS}}</style>

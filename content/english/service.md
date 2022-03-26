@@ -1,29 +1,29 @@
 ---
-title : "SERVICES"
+title : "CERTIFICATIONS"
 service_list:
 # service item loop
-- name : "Web Development"
-  image : "images/icons/web-development.png"
+- name : "Google Analytics for Beginners - Google Certifications"
+  image : "images/icons/analytics.png"
   
 # service item loop
-- name : "Graphic Design"
-  image : "images/icons/graphic-design.png"
+- name : "Become a Certified Web Developer - Udemy Certifications"
+  image : "images/icons/web.png"
   
 # service item loop
-- name : "Database Management"
-  image : "images/icons/dbms.png"
+- name : "Responsive Website Basics - Coursera Certifications"
+  image : "images/icons/responsive.png"
   
 # service item loop
-- name : "Software Development"
-  image : "images/icons/software-development.png"
+- name : "AWS Fundamentals: Going Cloud Native - Coursera Certifications"
+  image : "images/icons/aws.png"
   
 # service item loop
-- name : "Digital Marketing"
-  image : "images/icons/marketing.png"
+- name : "Interactivity with JavaScript - Coursera Certifications"
+  image : "images/icons/js.png"
   
 # service item loop
-- name : "Mobile App Development"
-  image : "images/icons/mobile-app.png"
+- name : "Adobe Photoshop - Educba Certifications"
+  image : "images/icons/photoshop.png"
 
 
 

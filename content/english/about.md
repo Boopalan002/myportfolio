@@ -14,26 +14,26 @@ education:
   education_list:
     # education item loop
     - name : "Doctorate of Philosophy (Ph.D)"
-      company : "Currently pursuing Ph.D in Computer Science as a part time in PKR College of Arts for Women"
+      company : "Currently pursuing Ph.D in Computer Science as a part time in PKR College of Arts for Women, Gobichettipalayam, Erode, Tamil Nadu, India"
       duration : "July 2017 - Present"
       area : "Advanced Networking"
       domain : "Wirless/Underwater Sensor Networks"
     
     # education item loop
     - name : "Master of Philosophy (M.Phil)"
-      company : "Completed M.Phil in Computer Science at SNMV College of Arts and Science"
+      company : "Completed M.Phil in Computer Science at SNMV College of Arts and Science, Coimbatore, Tamil Nadu, India"
       duration : "June 2012 - April 2014"
       area : "Advanced Networking"
       domain : "Traffic Engineering & Optimization Networks"
     
     # education item loop
     - name : "Master of Science (M.Sc)"
-      company : "Completed M.Sc. in Information Technology at Bharathiar University"
+      company : "Completed M.Sc. in Information Technology at Bharathiar University, Coimbatore, Tamil Nadu, India"
       duration : "June 2008 - April 2010"
     
     # education item loop
-    - name : "Bachelor of Science (M.Sc)"
-      company : "Completed B.Sc. in Computer Science at SNMV College of Arts and Science"
+    - name : "Bachelor of Science (B.Sc)"
+      company : "Completed B.Sc. in Computer Science at SNMV College of Arts and Science, Coimbatore, Tamil Nadu, India"
       duration : "June 2004 - April 2007"
       
 ########################### Experience ##############################
