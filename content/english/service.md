@@ -22,7 +22,7 @@ service_list:
   image : "images/icons/js.png"
   
 # service item loop
-- name : "Adobe Photoshop - Educba Certifications"
+- name : "Photoshop - Educba Certifications"
   image : "images/icons/photoshop.png"
 
 
