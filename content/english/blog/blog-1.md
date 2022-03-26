@@ -100,11 +100,11 @@ rendered document appears in the right pane.
 
 You can create HTML elements through easily by prepending the text you want to be in that element by a number of hashes (#).
 
-![Heading](/images/markdown/heading.JPG)
+<img src="/images/markdown/heading.JPG" width="100%" height="auto" />
 
 Markdown also provides us with two alternative ways of indicating h1 and h2
 
-![Heading1](/images/markdown/heading1.JPG)
+<img src="/images/markdown/heading1.JPG" width="100%" height="auto" />
 
 
 #### Simple Text Styles
@@ -190,8 +190,8 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 - You can display an image by adding ! and wrapping the alt text in [ ]. Then wrap the link for the image in parentheses ()
 - And reference style works as expected
-
-![Image](/images/markdown/image.JPG)
+- 
+<img src="/images/markdown/image.JPG" width="100%" height="auto" />
 
 <img src="/images/markdown/mercedes.jpg" width="100%" height="auto"/>
 
