@@ -118,51 +118,51 @@ Markdown also provides us with two alternative ways of indicating h1 and h2
 - Paragraphs are a one or multiple adjacent lines of text separated by
 one or multiple blank lines.
 
-![Paragraph](/images/markdown/paragraph.JPG)
+<img src="/images/markdown/paragraph.JPG" width="100%" height="auto" />
 
 ## 3. Blockquotes
 
 * To create a blockquote, add a > in front of a paragraph.
 
-![blockquote](/images/markdown/quote1.JPG)
+<img src="/images/markdown/quote1.JPG" width="100%" height="auto" />
 
-![blockquote](/images/markdown/quote.JPG)
+<img src="/images/markdown/quote.JPG" width="100%" height="auto" />
 
 #### Multiple Quote
 
-![Multiple Quote](/images/markdown/mquote1.JPG)
+<img src="/images/markdown/mquote1.JPG" width="100%" height="auto" />
 
-![Multiple Quote](/images/markdown/mquote.JPG)
+<img src="/images/markdown/mquote.JPG" width="100%" height="auto" />
 
 #### Nested Quote
+<img src="/images/markdown/nquote1.JPG" width="100%" height="auto" />
 
-![Nested Quote](/images/markdown/nquote1.JPG)
-
-![Nested Quote](/images/markdown/nquote.JPG)
+<img src="/images/markdown/nquote.JPG" width="100%" height="auto" />
 
 ## 4. Lists
 
 - You can make an unordered list by preceding one or more lines of text with - or *
 - To order your list, precede each line with a number
 
-![List](/images/markdown/list1.JPG)
+<img src="/images/markdown/list1.JPG" width="100%" height="auto" />
 
-![List](/images/markdown/List.JPG)
+<img src="/images/markdown/List.JPG" width="100%" height="auto" />
+
 
 #### Nested Lists
 
 * You can create a nested list by indenting one or more list items below another item.
 * To create a nested list using the web editor on GitHub or a text editor that uses a monospaced font, like Atom, you can align your list visually. Type space characters in front of your nested list item, until the list marker character (- or *) lies directly below the first character of the text in the item above it.
 
-![Nested List](/images/markdown/nlist1.JPG)
+<img src="/images/markdown/nlist1.JPG" width="100%" height="auto" />
 
-![Nested List](/images/markdown/nlist.JPG)
+<img src="/images/markdown/nlist.JPG" width="100%" height="auto" />
 
 ## 5. Horizontal Rule
 
 Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphens, with or without spaces.
 
-![Horizontal Rule](/images/markdown/hrule.JPG)
+<img src="/images/markdown/hrule.JPG" width="100%" height="auto" />
 
 ***
 
@@ -172,9 +172,9 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 2. You can also add a link title using quotes inside the parentheses.
 3. Relative paths work too.
 
-![Links](/images/markdown/link1.JPG)
+<img src="/images/markdown/link1.JPG" width="100%" height="auto" />
 
-![Links](/images/markdown/link.JPG)
+<img src="/images/markdown/link.JPG" width="100%" height="auto" />
 
  
 #### Reference Links
@@ -182,9 +182,9 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 - Markdown also supports reference style links
 - The title can also be in single quotes or in parentheses, or omitted entirely. The references can be anywhere in your document and the reference IDs can be anything so long as they are unique.
 
-![Reference Link](/images/markdown/rlink1.JPG)
+<img src="/images/markdown/rlink1.JPG" width="100%" height="auto" />
 
-![Reference Link](/images/markdown/rlink.JPG)
+<img src="/images/markdown/rlink.JPG" width="100%" height="auto" />
 
 ## 7. Images
 
@@ -197,7 +197,7 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 #### Reference Image
 
-![Reference Image](/images/markdown/rimage.JPG)
+<img src="/images/markdown/rimage.JPG" width="100%" height="auto" />
 
 <img src="/images/markdown/mercedes1.jpg" width="100%" height="auto"/>
 
@@ -215,33 +215,35 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 * To format code or text into its own distinct block, use triple
 backticks
 
-![Fenced Code Block](/images/markdown/qcode1.JPG)
+<img src="/images/markdown/qcode1.JPG" width="100%" height="auto" />
 
-![Fenced Code Block](/images/markdown/qcode.JPG)
+<img src="/images/markdown/qcode.JPG" width="100%" height="auto" />
 
 ## 2. Task Lists
 
 - To create a task list, preface list items with a hyphen and space followed by [ ]. To mark a task as complete, use [x].
 
-![Task Lists](/images/markdown/tlist1.JPG)
+<img src="/images/markdown/tlist1.JPG" width="100%" height="auto" />
 
-![Task Lists](/images/markdown/tlist.JPG)
+<img src="/images/markdown/tlist.JPG" width="100%" height="auto" />
 
 ## 3. Tables
 
 * To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, you should also add a pipe on either end of the row.
 
-![Table](/images/markdown/table1.JPG)
+<img src="/images/markdown/table1.JPG" width="100%" height="auto" />
 
-![Table](/images/markdown/table.JPG)
+<img src="/images/markdown/table.JPG" width="100%" height="auto" />
 
 #### Table Alignment
 
 * You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row
 
-![Table Alignment](/images/markdown/tablea1.JPG)
+<img src="/images/markdown/tablea1.JPG" width="100%" height="auto" />
 
-![Table Alignment](/images/markdown/tablea.JPG)
+
+<img src="/images/markdown/tablea.JPG" width="100%" height="auto" />
+
 
 ## 4. Emoji
 
@@ -251,13 +253,13 @@ backticks
 
 * Some Markdown applications allow you to insert emoji by typing emoji shortcodes. These begin and end with a colon and include the name of an emoji
 
-![Emoji](/images/markdown/emoji1.JPG)
+<img src="/images/markdown/emoji1.JPG" width="100%" height="auto" />
 
-![Emoji](/images/markdown/emoji.JPG)
+<img src="/images/markdown/emoji.JPG" width="100%" height="auto" />
 
 ## 5. Toggle
 
-![Toggle](/images/markdown/toggle.JPG)
+<img src="/images/markdown/toggle.JPG" width="100%" height="auto" />
 
 <details>
 <summary>This is a Toggle</summary>
