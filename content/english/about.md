@@ -13,26 +13,26 @@ education:
   title : "EDUCATION"
   education_list:
     # education item loop
-    - name : "Doctorate of Philosophy (Ph.D)"
+    - name : "Doctorate of Philosophy (Ph.D.)"
       company : "Currently pursuing Ph.D in Computer Science as a part time in PKR College of Arts for Women, Gobichettipalayam, Erode, Tamil Nadu, India"
       duration : "July 2017 - Present"
       area : "Advanced Networking"
       domain : "Wirless/Underwater Sensor Networks"
     
     # education item loop
-    - name : "Master of Philosophy (M.Phil)"
+    - name : "Master of Philosophy (M.Phil.)"
       company : "Completed M.Phil in Computer Science at SNMV College of Arts and Science, Coimbatore, Tamil Nadu, India"
       duration : "June 2012 - April 2014"
       area : "Advanced Networking"
       domain : "Traffic Engineering & Optimization Networks"
     
     # education item loop
-    - name : "Master of Science (M.Sc)"
+    - name : "Master of Science (M.Sc.)"
       company : "Completed M.Sc. in Information Technology at Bharathiar University, Coimbatore, Tamil Nadu, India"
       duration : "June 2008 - April 2010"
     
     # education item loop
-    - name : "Bachelor of Science (B.Sc)"
+    - name : "Bachelor of Science (B.Sc.)"
       company : "Completed B.Sc. in Computer Science at SNMV College of Arts and Science, Coimbatore, Tamil Nadu, India"
       duration : "June 2004 - April 2007"
       
@@ -60,7 +60,7 @@ experience:
       duration : "2010-2019"
 
     # experience item loop
-    - name : "Trainee cum Propreitor"
+    - name : "Trainee cum Proprietor"
       company : "Smart Media Zone, Coimbatore"
       content : "Training class for Web Design & Development"
       duration : "2012-till now"

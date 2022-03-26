@@ -854,7 +854,7 @@ input:checked+label span:last-child {
 
 .about-me-text h1 {
   position: relative;
-  color: #6f6f6f;
+  color: #F57D04;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -866,7 +866,7 @@ input:checked+label span:last-child {
   top: -8px;
   width: 47px;
   height: 5px;
-  background: #6f6f6f;
+  background: #F57D04;
 }
 
 .about-me-text p {
@@ -931,7 +931,7 @@ input:checked+label span:last-child {
 
 .experience h3, .education h3,
 .skill h3 {
-  color: #6f6f6f;
+  color:#F57D04;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -1002,7 +1002,7 @@ ul.education-chart h4 {
 
 .experience h3,
 .skill h3 {
-  color: #6f6f6f;
+  color:#F57D04;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -1150,7 +1150,7 @@ ul.experience-chart h4 {
 }
 
 .services-heading h1 {
-  color: #6f6f6f;
+  color:#F57D04;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -1167,7 +1167,7 @@ ul.experience-chart h4 {
   margin: auto;
   width: 70px;
   height: 5px;
-  background: #6f6f6f;
+  background: #F57D04;
 }
 
 .services-icon {
@@ -1178,8 +1178,8 @@ ul.experience-chart h4 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 40px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .service-img {
@@ -1199,8 +1199,10 @@ ul.experience-chart h4 {
   text-align: center;
   font-weight: 700;
   letter-spacing: -0.5px;
-  font-size: 19px;
+  font-size: 20px;
+  color: #4d4d4d;
 }
+
 
 .need-service {
   width: 100%;
@@ -1273,7 +1275,7 @@ ul.experience-chart h4 {
 }
 
 .portfolio h1 {
-  color: #6f6f6f;
+  color:#F57D04;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
@@ -1283,7 +1285,7 @@ ul.experience-chart h4 {
 .portfolio h1:before {
   content: "";
   height: 5px;
-  background: #6f6f6f;
+  background: #F57D04;
   position: absolute;
   top: -15px;
   left: 46.5%;
@@ -1656,7 +1658,7 @@ ul.experience-chart h4 {
 .contact-holder h1 {
   position: relative;
   text-align: center;
-  color: #fff;
+  color: #F57D04;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -1670,7 +1672,7 @@ ul.experience-chart h4 {
   margin: auto;
   width: 47px;
   height: 5px;
-  background: #fff;
+  background: #F57D04;
 }
 
 .form-container {

@@ -1,5 +1,5 @@
 ---
-title : "Let's Connect, i wish to learn!"
+title : "Let's Connect, I wish to learn."
 bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true
