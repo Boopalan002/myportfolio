@@ -32,19 +32,36 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
-    label: "About" # Used in the UI
-    folder: "content/about.md" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {
-          label: "Button", name: "button", widget: "object",
-          fields:
-          [
-            {label: "Label", name: "label", widget: "string"},
-            {label: "Link", name: "link", widget: "string"}
-          ],
-        }
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages" # Used in the UI
+    files:
+      - file: "content/about.md"
+        label: "About"
+        name: "about"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {
+              label: "Button", name: "button", widget: "object",
+              fields:
+              [
+                {label: "Label", name: "label", widget: "string"},
+                {label: "Link", name: "link", widget: "string"}
+              ],
+            }
+          - {
+              label: "Education", name: "education", widget: "object",
+              fields:
+              [
+                {label: "Title", name: "title", widget: "string"},
+                {
+                  label: "Education List", name: "education_list", widget: "object",
+                  fields:
+                  [
+                    {label: "Name", name: "name", widget: "string"},
+                    {label: "Company", name: "company", widget: "string"},
+                  ]
+                }
+              ],
+            }
+          - {label: "Body", name: "body", widget: "text"}
