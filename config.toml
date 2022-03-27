@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "https://boopalans.saz.life/"
 title = "Boopalan S | MySmartPortfolio"
 theme = "somrat"
 # post pagination
