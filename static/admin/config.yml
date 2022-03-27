@@ -39,16 +39,6 @@ collections:
         label: "About"
         name: "about"
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {
-              label: "Button", name: "button", widget: "object",
-              fields:
-              [
-                {label: "Label", name: "label", widget: "string"},
-                {label: "Link", name: "link", widget: "string"}
-              ],
-            }
           - {
               label: "Education", name: "education", widget: "object",
               fields:
@@ -60,6 +50,9 @@ collections:
                   [
                     {label: "Name", name: "name", widget: "string"},
                     {label: "Company", name: "company", widget: "string"},
+                    {label: "Duration", name: "duration", widget: "string"},
+                    {label: "Area", name: "area", widget: "string"},
+                    {label: "Domain", name: "domain", widget: "string"},
                   ]
                 }
               ],
