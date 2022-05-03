@@ -15,7 +15,7 @@ description: Regular Expressions are used for pattern matching (or) string match
 
 ---
 **Expressions**|**Description**
-:-----:|:-----:
+:-----:|:-----
 [abc]|a, b or c
 [^abc]|any character except a, b, c
 [a-z]|a to z
@@ -26,7 +26,7 @@ description: Regular Expressions are used for pattern matching (or) string match
 ---
 
 **Quantifiers**|**Description**
-:-----:|:-----:
+:-----:|:-----
 [  ]?|occurs 0 or 1 time
 [  ]+|occurs 1 or more times
 [  ]*|occurs 0 or more times
@@ -37,7 +37,7 @@ description: Regular Expressions are used for pattern matching (or) string match
 ---
 
 **Meta characters**|**Description**
-:-----:|:-----:
+:-----:|:-----
 \d|[0-9]
 \D|[^0-9]
 \w|[a-zA-Z\_0-9]
