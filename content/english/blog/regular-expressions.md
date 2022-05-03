@@ -2,6 +2,8 @@
 title: Regular Expressions
 date: 2022-05-03T09:39:50.256Z
 image: https://miro.medium.com/max/1400/0*IsFD2Blt1CG9iHTk
+tags:
+  - JavaScript
 description: Regular Expressions are used for pattern matching (or) string matching.
 ---
 #### Regular Expressions are used for pattern matching (or) string matching.
