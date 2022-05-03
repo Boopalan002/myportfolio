@@ -32,7 +32,7 @@ description: Regular Expressions are used for pattern matching (or) string match
 [  ]*|occurs 0 or more times
 [  ]{n}|occurs n times
 [  ]{n,}|occurs n or more times
-**[  ]{y,z}**|**occurs at least y times but less than z times**
+[  ]{y,z}|occurs at least y times but less than z times
 
 ---
 
