@@ -47,6 +47,9 @@ description: Regular Expressions are used for pattern matching (or) string match
 
 ### Examples
 
-1. Mobile number start with 8 or 9 and total digits = 10 - ***[89][0-9]{9}***
-2. First character uppercase, contains lower case alphabets, only one digit allowed in between - ** [A-Z][a-z]*[0-9][a-z]* **
-3. Email ID - *** [a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3} ***
+1. Mobile number start with 8 or 9 and total digits = 10 
+   - ***[89][0-9]{9}***
+2. First character uppercase, contains lower case alphabets, only one digit allowed in between 
+   - **[A-Z][a-z]*[0-9][a-z]***
+3. Email ID 
+   - ***[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3}***
