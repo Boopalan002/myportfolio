@@ -1,70 +1,81 @@
 ---
-title: "Markdown Tutorial"
+title: Markdown Tutorial
 date: 2022-03-01T12:14:34+06:00
-image: "images/portfolio/markdown.png"
-tags: ["design"]
-description: "Markdown Language"
+image: images/portfolio/markdown.png
+tags:
+  - Markdown
+description: Markdown Language
 draft: false
 ---
+* *[What is Markdown?](#what-is-markdown)*
+* *[What is Markdown File Extension?](#what-is-markdown-file-extension)*
+* *[Advantages](#advantages)*
+* *[Why Use Markdown?](#why-use-markdown)*
+* *[How do you open markdown files?](#how-do-you-open-markdown-files)*
+* *[Basic Syntax](#basic-syntax)*
 
-- [*What is Markdown?*](#what-is-markdown)
-- [*What is Markdown File Extension?*](#what-is-markdown-file-extension)
-- [*Advantages*](#advantages)
-- [*Why Use Markdown?*](#why-use-markdown)
-- [*How do you open markdown files?*](#how-do-you-open-markdown-files)
-- [*Basic Syntax*](#basic-syntax)
-  - [1. Headings](#1-headings)
-      - [Simple Text Styles](#simple-text-styles)
-  - [2. Paragraphs](#2-paragraphs)
-  - [3. Blockquotes](#3-blockquotes)
-      - [Multiple Quote](#multiple-quote)
-      - [Nested Quote](#nested-quote)
-  - [4. Lists](#4-lists)
-      - [Nested Lists](#nested-lists)
-  - [5. Horizontal Rule](#5-horizontal-rule)
-  - [6. Links](#6-links)
-      - [Reference Links](#reference-links)
-  - [7. Images](#7-images)
-      - [Reference Image](#reference-image)
-      - [Relative Links Image](#relative-links-image)
-- [*Extended Syntax*](#extended-syntax)
-  - [1. Fenced Code Block](#1-fenced-code-block)
-  - [2. Task Lists](#2-task-lists)
-  - [3. Tables](#3-tables)
-      - [Table Alignment](#table-alignment)
-  - [4. Emoji](#4-emoji)
-      - [Using Emoji Shortcodes](#using-emoji-shortcodes)
-  - [5. Toggle](#5-toggle)
-  - [6. Subscript & Superscript](#6-subscript--superscript)
-- [*Markdown Cheatsheet - Basic Syntax*](#markdown-cheatsheet---basic-syntax)
-- [*Markdown Cheatsheet - Extended Syntax*](#markdown-cheatsheet---extended-syntax)
+  * [1. Headings](#1-headings)
+
+    * [Simple Text Styles](#simple-text-styles)
+  * [2. Paragraphs](#2-paragraphs)
+  * [3. Blockquotes](#3-blockquotes)
+
+    * [Multiple Quote](#multiple-quote)
+    * [Nested Quote](#nested-quote)
+  * [4. Lists](#4-lists)
+
+    * [Nested Lists](#nested-lists)
+  * [5. Horizontal Rule](#5-horizontal-rule)
+  * [6. Links](#6-links)
+
+    * [Reference Links](#reference-links)
+  * [7. Images](#7-images)
+
+    * [Reference Image](#reference-image)
+    * [Relative Links Image](#relative-links-image)
+* *[Extended Syntax](#extended-syntax)*
+
+  * [1. Fenced Code Block](#1-fenced-code-block)
+  * [2. Task Lists](#2-task-lists)
+  * [3. Tables](#3-tables)
+
+    * [Table Alignment](#table-alignment)
+  * [4. Emoji](#4-emoji)
+
+    * [Using Emoji Shortcodes](#using-emoji-shortcodes)
+  * [5. Toggle](#5-toggle)
+  * [6. Subscript & Superscript](#6-subscript--superscript)
+* *[Markdown Cheatsheet - Basic Syntax](#markdown-cheatsheet---basic-syntax)*
+* *[Markdown Cheatsheet - Extended Syntax](#markdown-cheatsheet---extended-syntax)*
 
 Markdown is a lightweight markup language designed to be human-friendly and easily convertible to HTML.
 
 # *What is Markdown?*
 
 * Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally
-valid XHTML (or HTML). *Source: http://en.wikipedia.org/wiki/Markdown*
+  valid XHTML (or HTML). *Source: http://en.wikipedia.org/wiki/Markdown*
 * It helps users to write plain text and convert it to multiple formats
-like HTML, pdf, etc.
+  like HTML, pdf, etc.
 * It contains two things
-    1. Writing text content with special syntax
-    2. Parser to convert this content into different output
+
+  1. Writing text content with special syntax
+  2. Parser to convert this content into different output
 
 # *What is Markdown File Extension?*
 
-- There is no office extension defined for these types of files
-- We can create a plain text file with the .md extension to write content for websites
-- We can create a files with different extensions for markdown files
-  - .markdown
-  - .md
-  - .mkd
-  - .mkdown
-  - .text
-  - .mdown
-- Some of the popular vendors use HTML extensions
-- Github uses markdown and mdown extensions
-- GitHub uses the standard file extension as .md
+* There is no office extension defined for these types of files
+* We can create a plain text file with the .md extension to write content for websites
+* We can create a files with different extensions for markdown files
+
+  * .markdown
+  * .md
+  * .mkd
+  * .mkdown
+  * .text
+  * .mdown
+* Some of the popular vendors use HTML extensions
+* Github uses markdown and mdown extensions
+* GitHub uses the standard file extension as .md
 
 # *Advantages*
 
@@ -79,20 +90,20 @@ like HTML, pdf, etc.
 # *Why Use Markdown?*
 
 * **Markdown can be used for everything.** People use it to
-create websites, documents, notes, books, presentations, email messages,
-and technical documentation
+  create websites, documents, notes, books, presentations, email messages,
+  and technical documentation
 * **Markdown is portable.** Files containing Markdown-formatted text can be
-opened using virtually any application
+  opened using virtually any application
 * **Markdown is platform independent.** You can create Markdown-formatted text on any device running any operating system
 * **Markdown is future proof.** Even if the application you’re using stops working at some point in the future, you’ll still be able to read your Markdown-formatted text using a text editing application
 * **Markdown is everywhere.** Websites like Reddit and GitHub support Markdown,
-and lots of desktop and web-based applications support it
+  and lots of desktop and web-based applications support it
 
 # *How do you open markdown files?*
 
-- These files open in a simple text editor or Integrated Development editors like Visual Studio, Atom Sublime Text, Notepad++, and Intelli IDEA in Windows, UNIX, and MAC OS.
-- There are several online Markdown editors that you can use to try writing in Markdown. Dillinger is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the
-rendered document appears in the right pane.
+* These files open in a simple text editor or Integrated Development editors like Visual Studio, Atom Sublime Text, Notepad++, and Intelli IDEA in Windows, UNIX, and MAC OS.
+* There are several online Markdown editors that you can use to try writing in Markdown. Dillinger is one of the best online Markdown editors. Just open the site and start typing in the left pane. A preview of the
+  rendered document appears in the right pane.
 
 # *Basic Syntax*
 
@@ -106,7 +117,6 @@ Markdown also provides us with two alternative ways of indicating h1 and h2
 
 <img src="/images/markdown/heading1.JPG" width="100%" height="auto" />
 
-
 #### Simple Text Styles
 
 * Text can be easily styled as italic or bold using markdown
@@ -115,8 +125,8 @@ Markdown also provides us with two alternative ways of indicating h1 and h2
 
 ## 2. Paragraphs
 
-- Paragraphs are a one or multiple adjacent lines of text separated by
-one or multiple blank lines.
+* Paragraphs are a one or multiple adjacent lines of text separated by
+  one or multiple blank lines.
 
 <img src="/images/markdown/paragraph.JPG" width="100%" height="auto" />
 
@@ -135,19 +145,19 @@ one or multiple blank lines.
 <img src="/images/markdown/mquote.JPG" width="100%" height="auto" />
 
 #### Nested Quote
+
 <img src="/images/markdown/nquote1.JPG" width="100%" height="auto" />
 
 <img src="/images/markdown/nquote.JPG" width="100%" height="auto" />
 
 ## 4. Lists
 
-- You can make an unordered list by preceding one or more lines of text with - or *
-- To order your list, precede each line with a number
+* You can make an unordered list by preceding one or more lines of text with - or *
+* To order your list, precede each line with a number
 
 <img src="/images/markdown/list1.JPG" width="100%" height="auto" />
 
 <img src="/images/markdown/List.JPG" width="100%" height="auto" />
-
 
 #### Nested Lists
 
@@ -164,11 +174,11 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 <img src="/images/markdown/hrule.JPG" width="100%" height="auto" />
 
-***
+- - -
 
 ## 6. Links
 
-1. One of the best things about markdown is how easy it is to make links. Put the text to display in hard brackets [] followed by the url in parentheses ().
+1. One of the best things about markdown is how easy it is to make links. Put the text to display in hard brackets \[] followed by the url in parentheses ().
 2. You can also add a link title using quotes inside the parentheses.
 3. Relative paths work too.
 
@@ -176,11 +186,10 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 <img src="/images/markdown/link.JPG" width="100%" height="auto" />
 
- 
 #### Reference Links
 
-- Markdown also supports reference style links
-- The title can also be in single quotes or in parentheses, or omitted entirely. The references can be anywhere in your document and the reference IDs can be anything so long as they are unique.
+* Markdown also supports reference style links
+* The title can also be in single quotes or in parentheses, or omitted entirely. The references can be anywhere in your document and the reference IDs can be anything so long as they are unique.
 
 <img src="/images/markdown/rlink1.JPG" width="100%" height="auto" />
 
@@ -188,10 +197,8 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 ## 7. Images
 
-- You can display an image by adding ! and wrapping the alt text in [ ]. Then wrap the link for the image in parentheses ()
-- And reference style works as expected
-- 
-<img src="/images/markdown/image.JPG" width="100%" height="auto" />
+* You can display an image by adding ! and wrapping the alt text in \[ ]. Then wrap the link for the image in parentheses ()
+* And reference style works as expected
 
 <img src="/images/markdown/mercedes.jpg" width="100%" height="auto"/>
 
@@ -203,7 +210,7 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 #### Relative Links Image
 
-- Here are some examples for using relative links to display an image.
+* Here are some examples for using relative links to display an image.
 
 <img src="/images/markdown/rlinkimage.JPG" width="100%" height="auto"/>
 
@@ -213,7 +220,7 @@ Horizontal rules (<hr/>) are easily added with three or more asterisks or hyphen
 
 * You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted. You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown
 * To format code or text into its own distinct block, use triple
-backticks
+  backticks
 
 <img src="/images/markdown/qcode1.JPG" width="100%" height="auto" />
 
@@ -221,7 +228,7 @@ backticks
 
 ## 2. Task Lists
 
-- To create a task list, preface list items with a hyphen and space followed by [ ]. To mark a task as complete, use [x].
+* To create a task list, preface list items with a hyphen and space followed by \[ ]. To mark a task as complete, use \[x].
 
 <img src="/images/markdown/tlist1.JPG" width="100%" height="auto" />
 
@@ -241,9 +248,7 @@ backticks
 
 <img src="/images/markdown/tablea1.JPG" width="100%" height="auto" />
 
-
 <img src="/images/markdown/tablea.JPG" width="100%" height="auto" />
-
 
 ## 4. Emoji
 
