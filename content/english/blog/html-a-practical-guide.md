@@ -6,8 +6,6 @@ tags:
   - Web Development
 description: HTML - A Practical Guide
 ---
-<!--StartFragment-->
+***Click the below link to view the Presentation:***
 
 [https://res.cloudinary.com/dwjej2tbp/image/upload/v1672673260/HTML_-_A_Practical_Guide_ejrod8.pdf](https://res.cloudinary.com/dwjej2tbp/image/upload/v1672673260/HTML_-_A_Practical_Guide_ejrod8.pdf)
-
-<!--EndFragment-->
