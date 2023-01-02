@@ -1,7 +1,7 @@
 ---
 title: HTML - A Practical Guide
 date: 2023-01-02T15:28:22.910Z
-image: https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg
+image: images/html-lernen-t.jpg
 tags:
   - Web Development
 description: HTML - A Practical Guide
